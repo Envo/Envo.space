@@ -108,9 +108,17 @@ body {
 	line-height: 1.5em;
 }
 
+.block p img.full {
+	width: 100%;
+}
+
 .block a {
 	color: #fff;
 	text-decoration: underline;
+}
+
+.block h3 {
+	font-size: 25px;
 }
 
 .block p ul {
