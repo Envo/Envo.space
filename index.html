@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="style.css" media="screen" title="no title">
 	</head>
 	<body>
-		<div id="head">
+		<!--<div id="head">
 			<ul id="menu">
 				<li data-anchor="gigs">Gigs</li>
 				<li data-anchor="music">Music</li>
@@ -19,16 +19,177 @@
 			<div class="image image_1" style="background-image: url(images/showreel/1.jpg)"></div>
 			<div class="image image_2" style="background-image: url(images/showreel/2.jpg)"></div>
 			<div class="image image_3" style="background-image: url(images/showreel/3.jpg)"></div>
-		</div>
+		</div>-->
+		<canvas id="canvas"></canvas>
 		<div id="content">
 
 			<div class="block block_gigs">
 				<h2>Upcoming Gigs</h2>
-				<h3><a href="https://www.facebook.com/events/1586335401659788/">FLTH 1. - dark techno &amp; synthwave -</a></h3>
-				<p>
+
+				<div class="gig">
+					<h3><a href="https://www.facebook.com/events/1586335401659788/">FLTH 1. - dark techno &amp; synthwave -</a></h3>
+					<p class="date">
+						2016.10.01.
+					</p>
 					<a href="https://www.facebook.com/events/1586335401659788/"><img src="images/gigs/flth_1.jpg" alt="" class="full" /></a>
-				</p>
-				<h2>Past Gigs</h2>
+				</div>
+
+				<h2 class="topdivider">Past Gigs</h2>
+
+				<div class="gig">
+					<h3>Neonhullám #4</h3>
+					<p class="date">
+						2016.08.19.
+					</p>
+					<img src="images/gigs/neonhullam_4.jpg" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>E-Day</h3>
+					<p class="date">
+						2016.05.14.
+					</p>
+					<img src="images/gigs/e-day-2016.png" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>KVLTNIGHT w/IC3PEAK</h3>
+					<p class="date">
+						2016.04.22.
+					</p>
+					<img src="images/gigs/kvltnight_1.jpg" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>FutureF#ck #4</h3>
+					<p class="date">
+						2016.04.09.
+					</p>
+					<img src="images/gigs/futurefck_4.png" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>FutureF#ck #3</h3>
+					<p class="date">
+						2016.03.04.
+					</p>
+					<img src="images/gigs/futurefck_3.jpg" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>E-Selectoin</h3>
+					<p class="date">
+						2016.01.16.
+					</p>
+					<img src="images/gigs/e-selection.jpg" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>FutureF#ck #2</h3>
+					<p class="date">
+						2015.12.12.
+					</p>
+					<img src="images/gigs/futurefck_2.png" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>Neonhullám #88</h3>
+					<p class="date">
+						2015.10.22.
+					</p>
+					<img src="images/gigs/neonhullam_88.jpg" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>FutureF#ck #1</h3>
+					<p class="date">
+						2015.09.25.
+					</p>
+					<img src="images/gigs/futurefck_1.png" alt="" class="full" />
+				</div>
+
+				<div class="gig">
+					<h3>The Flow!</h3>
+					<p class="date">
+						2012.06.02.
+					</p>
+				</div>
+
+				<div class="gig">
+					<h3>Ad-Hoc Distortion Party</h3>
+					<p class="date">
+						2012.04.29.
+					</p>
+					<img src="images/gigs/adhoc.png" alt="" class="center" />
+				</div>
+
+				<div class="gig">
+					<h3>StyleFusion pres. The FLOW!</h3>
+					<p class="date">
+						2012.04.06.
+					</p>
+				</div>
+
+				<div class="gig">
+					<h3>Flow #8</h3>
+					<p class="date">
+						2012.01.12.
+					</p>
+				</div>
+
+				<div class="gig">
+					<h3>Flow #7 - w/ USA KINGS</h3>
+					<p class="date">
+						2011.12.29.
+					</p>
+				</div>
+
+				<div class="gig">
+					<h3>Flow #6 - w/ Savage b2b Mercenary [ O.M.E.N. warmup set ]</h3>
+					<p class="date">
+						2011.12.08.
+					</p>
+				</div>
+
+				<div class="gig">
+					<h3>Flow #3 - Oldschool Massive - w/ Savage feat. MC Fantom // Magical Gravity</h3>
+					<p class="date">
+						2011.11.03.
+					</p>
+					<img src="images/gigs/flow3.jpg" alt="" class="center" />
+				</div>
+
+				<div class="gig">
+					<h3>Flow #1 - w/ Maruosa (JP)</h3>
+					<p class="date">
+						2011.10.20.
+					</p>
+					<img src="images/gigs/flow_maruosa_nagy.jpg" alt="" class="center" />
+				</div>
+
+				<div class="gig">
+					<h3>CON\Sequence 3 - Ingyenes - \w Cube, Neckrow, Mercenary, Envo</h3>
+					<p class="date">
+						2011.06.04.
+					</p>
+					<img src="images/gigs/consequence3_flyer.jpg" alt="" class="center" />
+				</div>
+
+				<div class="gig">
+					<h3>COИ/sequence 2 w/ Mercenary, Sweet Lil'N, Dj Flatline, Envo</h3>
+					<p class="date">
+						2011.05.14.
+					</p>
+					<img src="images/gigs/consequence2.jpg" alt="" class="center" />
+				</div>
+
+				<div class="gig">
+					<h3>StyleFusion presents: COИ/sequence</h3>
+					<p class="date">
+						2011.03.10.
+					</p>
+					<img src="images/gigs/consequence_marc_10.jpg" alt="" class="full" />
+				</div>
 			</div>
 
 			<div class="block block_music">

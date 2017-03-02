@@ -82,6 +82,11 @@ body {
 	clear: both;
 }
 
+.topdivider {
+	margin-top: 20px !important;
+	padding-top: 20px !important;
+}
+
 .block {
 	width: 880px;
 	background: rgba(0,0,0,0.9);
@@ -108,8 +113,13 @@ body {
 	line-height: 1.5em;
 }
 
-.block p img.full {
+.block img.full {
 	width: 100%;
+}
+
+.block img.center {
+	margin: auto;
+	display: block;
 }
 
 .block a {
@@ -141,4 +151,30 @@ body {
 	width: 600px;
 	display: inline-block;
 	float: right;
+}
+
+.gig {
+	background: #fff;
+	border-radius: 5px;
+}
+
+.gig h3 {
+	color: #111;
+	padding: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.gig a {
+	color: #111;
+	text-decoration: underline;
+}
+
+.gig .date {
+	font-size: 15px;
+	color: #111;
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+	margin-bottom: 10px;
 }
