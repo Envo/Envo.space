@@ -55,6 +55,7 @@ body {
 	text-align: center;
 	z-index: 1400;
 	font-family: 'Megaton';
+  background: rgba(0,0,0,0.5);
 }
 
 #menu.active {
